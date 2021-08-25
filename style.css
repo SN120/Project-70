@@ -1,0 +1,72 @@
+#wn{
+    width: 100%;
+    background-color: aqua
+}
+marquee {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 9999999999999999999;
+}
+
+h1 {
+    font-style: oblique;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#achievementsID1 {
+    padding-bottom: 10px;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;   
+}
+
+.movie_text {
+    padding-bottom: 190px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.travel_mainDiv{
+    float: left;
+    width: 33.33%;
+    height: 59.770114941931034482758620689655%;
+    padding: 5px;
+    border:1px solid #c7c7c7;
+}
+.travel_mainDiv img{
+    width: 100%%;
+    height: 100%;
+}
+.travel_mainDiv hr{
+    width:100%;
+    height: 100px;
+}
+.travel_mainDiv p{
+    margin-left: 20px;
+}
